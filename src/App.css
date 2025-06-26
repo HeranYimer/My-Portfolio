@@ -672,7 +672,15 @@ section,
     padding: 20px;
   }
 }
-
+.text{
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+margin-left: 35rem;
+}
+.formtext{
+ font-weight: 600;
+}
 .contact .info-item {
   margin-bottom: 40px;
 }

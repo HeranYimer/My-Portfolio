@@ -15,7 +15,7 @@ const Resume = () => {
           dynamic software development environments.
         </p>
 
-        <a href="/Heran_resume.pdf" download className="download-btn">
+        <a href="/Heran__Resume.pdf" download className="download-btn">
           Download Resume (PDF)
         </a>
       </div>

@@ -23,14 +23,14 @@ const Contact = () => {
       .then(
         (result) => {
           console.log("Email sent:", result.text);
-         
+
           setMsg({ text: " Message sent successfully!", type: "success" });
           form.current.reset();
-          setTimeout(() => setMsg(null), 5000); 
+          setTimeout(() => setMsg(null), 5000);
         },
         (error) => {
           console.error("Email error:", error.text);
-         
+
           setMsg({
             text: "Something went wrong. Please try again, or use other contact methods.",
             type: "error",
@@ -54,6 +54,7 @@ const Contact = () => {
           committed full-stack developer to help bring your ideas to life.
         </p>
       </div>
+      <div className="text">You can submit your message here !</div>
 
       <div className="container " data-aos="fade-up" data-aos-delay="100">
         <div className="row gy-4">
@@ -147,7 +148,6 @@ const Contact = () => {
           </div>
 
           {/* Right EmailJS Form */}
-
           <div className="col-lg-7">
             <form
               ref={form}
@@ -158,7 +158,7 @@ const Contact = () => {
             >
               <div className="row gy-4">
                 <div className="col-md-6">
-                  <label htmlFor="name-field" className="pb-2">
+                  <label htmlFor="name-field" className="pb-2 formtext">
                     Name
                   </label>
                   <input
@@ -172,7 +172,7 @@ const Contact = () => {
                 </div>
 
                 <div className="col-md-6">
-                  <label htmlFor="email-field" className="pb-2">
+                  <label htmlFor="email-field" className="pb-2 formtext">
                     Email Address
                   </label>
                   <input
@@ -186,7 +186,7 @@ const Contact = () => {
                 </div>
 
                 <div className="col-md-12">
-                  <label htmlFor="subject-field" className="pb-2">
+                  <label htmlFor="subject-field" className="pb-2 formtext">
                     Subject
                   </label>
                   <input
@@ -200,7 +200,7 @@ const Contact = () => {
                 </div>
 
                 <div className="col-md-12">
-                  <label htmlFor="message-field" className="pb-2">
+                  <label htmlFor="message-field" className="pb-2 formtext">
                     Message
                   </label>
                   <TextareaAutosize
