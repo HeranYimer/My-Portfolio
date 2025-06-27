@@ -1,6 +1,7 @@
 import img1 from "../assets/images/netflix.jpeg";
 import img2 from "../assets/images/amazon2.png";
 import img3 from "../assets/images/logoev.png";
+import img4 from "../assets/images/iphone.jpeg"
 
 const portfolioData = [
   {
@@ -31,6 +32,16 @@ const portfolioData = [
     demoLink: "https://evangadi-forum-heran-yimer.netlify.app/",
     codeLink: "https://github.com/HeranYimer/Evangadi-Forum",
     techIcons: ["react", "node", "mysql", "express"],
+  },
+  {
+    id: 4,
+    title: "Apple Clone",
+    description:
+      "A visually stunning Apple website clone front end built with React, showcasing advanced UI design and responsiveness.",
+    image: img4,
+    demoLink: "https://app-le-project-heran.netlify.app/",
+    codeLink: "https://github.com/HeranYimer/Simple-Apple-project-react-/",
+    techIcons: ["react", "css"],
   },
 ];
 

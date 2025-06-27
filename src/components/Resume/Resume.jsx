@@ -50,7 +50,7 @@ const Resume = () => {
               <h4>Software Engineering Student & Full-Stack Web Developer</h4>
               <h5>2023 – Present</h5>
               <p>
-                <em>Bahirdar Institute of Technology (BIT)</em>
+                <em>Bahirdar University</em>
               </p>
               <p>
                 Currently studying Software Engineering, and working different
