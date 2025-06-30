@@ -29,7 +29,7 @@ const portfolioData = [
     description:
       "Forum platform for Q&A and collaboration built with MERN stack.",
     image: img3,
-    demoLink: "https://evangadi-forum-heran-yimer.netlify.app/",
+    demoLink: "https://evangadiforum.heranyimer.com/",
     codeLink: "https://github.com/HeranYimer/Evangadi-Forum",
     techIcons: ["react", "node", "mysql", "express"],
   },
@@ -39,7 +39,7 @@ const portfolioData = [
     description:
       "A visually stunning Apple website clone front end built with React, showcasing advanced UI design and responsiveness.",
     image: img4,
-    demoLink: "https://app-le-project-heran.netlify.app/",
+    demoLink: "https://appleclone.heranyimer.com/",
     codeLink: "https://github.com/HeranYimer/Simple-Apple-project-react-/",
     techIcons: ["react", "css"],
   },
